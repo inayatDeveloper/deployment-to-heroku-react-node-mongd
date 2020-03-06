@@ -1,0 +1,278 @@
+{
+	"id": "f3acda51-42dc-b704-f8d7-ae627dab0e31",
+	"name": "algolia search api",
+	"description": "",
+	"order": [
+		"c69bf0d6-91ab-99c1-a249-eb8c03cd693b",
+		"69774b14-da51-329f-4f0a-525853fda21a",
+		"67acd60c-8c94-4d4d-b68f-6eabe13922dc",
+		"adc8252f-a99c-fa2e-91ae-80da960f9571"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1583343354766,
+	"owner": "10612520",
+	"public": false,
+	"requests": [
+		{
+			"id": "67acd60c-8c94-4d4d-b68f-6eabe13922dc",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/add/article",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "my second article about iplex",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "descripation",
+					"value": "Descripation of my second article...",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "ihsanullah",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "address",
+					"value": "dir upper",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "userId",
+					"value": "47022932",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583354189018,
+			"name": "add article",
+			"description": "",
+			"collectionId": "f3acda51-42dc-b704-f8d7-ae627dab0e31",
+			"responses": []
+		},
+		{
+			"id": "69774b14-da51-329f-4f0a-525853fda21a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/add/article",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "my second article",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "descripation",
+					"value": "Descripation of my second article...",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "ihsanullah",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "address",
+					"value": "dir upper",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "userId",
+					"value": "47022932",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583351767622,
+			"name": "add article",
+			"description": "",
+			"collectionId": "f3acda51-42dc-b704-f8d7-ae627dab0e31",
+			"responses": []
+		},
+		{
+			"id": "adc8252f-a99c-fa2e-91ae-80da960f9571",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/search",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "f3acda51-42dc-b704-f8d7-ae627dab0e31",
+			"data": [
+				{
+					"key": "search",
+					"value": "iplex",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "descripation",
+					"value": "Descripation of my second article...",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "userName",
+					"value": "ihsanullah",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "address",
+					"value": "dir upper",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "userId",
+					"value": "47022932",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "search api ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1583354166037,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c69bf0d6-91ab-99c1-a249-eb8c03cd693b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/add/user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "firstName",
+					"value": "iplex",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastName",
+					"value": "react",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userName",
+					"value": "ihsanullah",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "dir upper",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "5e5ff87d28e8311660d12059",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1583354200121,
+			"name": "localhost:4000/add/user",
+			"description": "",
+			"collectionId": "f3acda51-42dc-b704-f8d7-ae627dab0e31",
+			"responses": []
+		}
+	]
+}
